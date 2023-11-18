@@ -69,7 +69,7 @@ import USERS from './src/Users';
                     </Text>
                   )}
                   {selectedUser && (
-                    <Text style={{fontWeight: '100', fontFamily: 'Tahoma', fontSize: 18, color: '#FF6C22'}}>{selectedUser.course}</Text>
+                    <Text style={{fontWeight: '100', fontFamily: 'Tahoma', fontSize: 18, color: '#F94C10'}}>{selectedUser.course}</Text>
                   )}
 
                   <TouchableOpacity onPress={()=> setModalVisible(false)}>
