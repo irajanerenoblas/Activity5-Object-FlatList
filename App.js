@@ -82,7 +82,7 @@ import USERS from './src/Users';
             </View>
           </Modal>
 
-        <Text style={{fontSize: 40, fontFamily: 'Tahoma', fontWeight: 'bold', padding: 20}}>FLATLIST</Text>
+        <Text style={{fontSize: 40, color: '#557C55', fontFamily: 'Tahoma', fontWeight: 'bold', padding: 20}}>FLATLIST</Text>
         <FlatList
           data={USERS}
           renderItem={renderItem}
